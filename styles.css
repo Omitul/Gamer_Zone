@@ -195,7 +195,7 @@ section{
     .pictures{
         display: flex;
         flex-direction: column;
-        margin-left: 20px ;
+        margin-left: 26px ;
     }
     .pictures > img {
         width: 7em;
