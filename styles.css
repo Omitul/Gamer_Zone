@@ -3,6 +3,9 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+section{
+    margin-bottom: 100px;
+}
 .text-para{
     font-size: 0.8em;
     font-weight: 500;
@@ -117,7 +120,7 @@ body{
 .banner-right>img{
     height: 100%;
     width: 50%;
-    margin-left: 300px;
+    margin-left: 250px;
 }
 .btn{
     display: flex;
@@ -152,4 +155,13 @@ body{
 }
 
 
+@media screen and (max-width:576px) {
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-right{
+        margin-right: 300px;
+    }
+}
 
