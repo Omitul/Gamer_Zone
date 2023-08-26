@@ -1,0 +1,82 @@
+/* shared */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav styles */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.list-part{
+    gap: 10px;
+}
+/* .nav-2{
+  display: flex;  
+} */
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.paratext{
+    font-weight: 700;
+    font-size: 0.7em;
+    color: rgb(11, 11, 11);
+}
+
+.flw-us{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 6px;
+  align-items: center;
+  height: 25px;
+  padding: 5px;
+  width: 150px;
+  margin-right: 20px;
+  border-radius: 5px;
+  background-color: rgb(238, 233, 233);
+  border: 1px solid rgb(94, 28, 28);
+  list-style : none;
+  border: 0;
+}
+.pic{
+    height: 12px;
+}
+.social-icons{
+    display: flex;
+    gap: 8px;
+}
+
+.anchor{
+    font-size: 0.8em;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+.ul-part{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-1{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 10px;
+    gap:10px;
+}
+.nav-1 img{
+    width: 40px;
+    height: 20px;
+}
+.gamer{
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.G{
+    color: #FF42A5;
+}
