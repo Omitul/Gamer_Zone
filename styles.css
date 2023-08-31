@@ -4,7 +4,13 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 section{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+}
+.banner{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .text-para{
     font-size: 0.8em;
@@ -74,18 +80,24 @@ section{
 .nav-1{
     display: flex;
     align-items: center;
-    margin-left: 100px;
-    margin-top: 10px;
-    gap:10px;
+    gap: 10px;
+    margin-left: 150px;
 }
 
 .nav-1 img{
     width: 40px;
     height: 20px;
+    margin:0;
+    padding: 0
+}
+.nav-1 h3{
+    margin: 0;
+    padding: 0;
 }
 .gamer{
-    font-size: 1.3em;
+    font-size: 2.3em;
     font-weight: 700;
+    margin-left: 100px;
 }
 .G{
     color: #FF42A5;
@@ -178,9 +190,125 @@ section{
    width: 20em;
 }
 .pics > p {
-    width: 300px;
+    width: 200px;
 }
 
+/* image part section styles*/
+.image-part{
+  margin-right: 400px;
+  margin-bottom: 500px;
+  margin-top: 200px;
+}
+.pic-1{
+    position: absolute; 
+}
+
+.pic-2{
+    position: relative;
+    top: 350px;
+    right: 160px;
+}
+.texts{
+    font-size: 40px;
+    margin-left: 200px;
+}
+#p-text{
+   font-size: 20px;
+   width: 60%;
+   color: rgb(74, 72, 72);
+   font-weight: 600;
+}
+
+.sec {
+    border: 2px dotted red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*  */
+.games-pic{
+    margin: 0 200px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 5px;
+}
+
+.imgg:hover{
+    border: 2px solid palevioletred;
+    color: palevioletred;
+    border-radius: 50px;
+    padding: 10px;
+    width: 80%;
+    height: 50px;
+    align-items: center;
+}
+.imgg{
+    border: 50px;
+    display: flex;
+    cursor: pointer;
+}
+
+.imgg:nth-child(n + 6) {
+    margin-left: 120px;
+    width: 80%;
+}
+.tt{
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+/* footer styles */
+footer{
+    height: 400px;
+    background-color:black;
+}
+.footer-title{
+    display: flex;
+    margin-top: 40px;    
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.footer-title img{
+    padding: 0;
+    margin: 0;
+}
+.footer-title h3{
+    padding: 0;
+    margin: 0;
+}
+.GG{
+    color: white;
+}
+.col{
+    color:palevioletred;
+}
+.khucra-texts{
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(6,1fr);
+    margin-left: 300px;
+    margin-right: 100px;
+    font-weight: 600;
+}
+.social-nets{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+
+}
+.conditions{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 300px;
+    font-size: 12px;
+    color: white;
+    gap: 0;
+    align-items: center;
+}
+.conditions p {
+    margin: 0;
+    padding: 10px;
+}
 
 
 
@@ -188,17 +316,83 @@ section{
     .banner{
         display: flex;
         flex-direction: column;
+        padding: 1px;
     }
     .banner-right{
-        margin-right: 300px;
+        margin-right: 700px;
     }
     .pictures{
         display: flex;
         flex-direction: column;
-        margin-left: 26px ;
+        padding: 20px;
     }
     .pictures > img {
         width: 7em;
     }
+    .games-pic{
+        display: grid;
+        width: 50%%;
+        grid-template-columns: repeat(3,200px);
+    }
+    .imgg:nth-child(n + 6) {
+        margin-left: 0;
+    }
+    .imgg{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+       
+    }
+    .games-pic  .imgg > img {
+        height: 25px;
+        width:  25px;
+    }
+    .tt{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .sec{
+      flex-direction: column;
+    }
+    .texts{
+        margin-right: 200px;
+    }
+    .texts>p{
+        font-size: 5px;
+    }
+    .texts h3 {
+        font-size: 30px;
+        width: 100%;
+    }
+    .p-text{
+      font-size: 5px;
+    }
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .gamer{
+        margin-right: 50px;
+    }
+   
+    .nav-1{
+        display: flex;
+        flex-direction: column;
+        margin-right: 110px;
+    }
+  
+    .banner-left{
+        margin-right: 180px;
+        padding: 20px;
+    }
+    .banner-right{
+        margin-left: 300px;
+    }
+
+    
 }
 
