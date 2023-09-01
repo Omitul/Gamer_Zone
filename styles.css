@@ -340,6 +340,11 @@ footer div{
     .pictures > img {
         width: 7em;
     }
+    .t{
+      margin: 0;
+      padding: 0;
+    }
+   
     .games-pic{
         display: grid;
         width: 80%;
@@ -440,7 +445,7 @@ footer div{
     .image-part {
      margin: 0;
      width: 100%;
-     height: 500px;
+     height: 550px;
     }
     .image-part .pic-1 {
         height: 50%;
@@ -448,10 +453,12 @@ footer div{
         margin-left: 12%;
     }
     .image-part .pic-2{
-        margin: 0;
-        margin-left: 170px;
+        position:relative;
+        margin-left: 200px;
         height: 150px;
         width: 150px;
+        top: 170px;
+        right: 200px;
     }
     .pics>img{
        margin-right: 200px;
@@ -486,8 +493,7 @@ footer div{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-column-gap: 30px;
-        margin-left: 60px;
-        margin-left: 110px;
+        margin-left: 90px;
     }
     .social-nets img{
         height: 25px;
@@ -499,8 +505,8 @@ footer div{
         display: grid;
         width: 100%;
         grid-template-columns: repeat(2,1fr);
-        grid-column-gap: 20px;
-        margin-right: 100px;
+        grid-column-gap: 5px;
+        margin-right: 200px;
         margin-top: 100px;
     }
 
