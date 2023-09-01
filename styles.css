@@ -266,11 +266,11 @@ section{
 }
 /* footer styles */
 footer{
-    height: 600px;
+    height: 550px;
     background-color:black;
 }
 footer div{
-   margin-top: 40px;
+   margin-top: 0px;
 }
 
 .footer-title{
@@ -295,6 +295,7 @@ footer div{
     margin-left: 400px;
     font-weight: 600;
     gap: 60px;
+    margin-bottom: 50px;
 }
 .social-nets{
    display: flex;
