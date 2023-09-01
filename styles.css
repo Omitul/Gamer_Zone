@@ -190,7 +190,9 @@ section{
    width: 20em;
 }
 .pics > p {
-    width: 200px;
+    width: 280px;
+    font-weight: 510;
+    color: rgb(76, 72, 72);
 }
 
 /* image part section styles*/
@@ -217,6 +219,7 @@ section{
     font-size: 40px;
     margin-left: 200px;
 }
+
 #p-text{
    font-size: 20px;
    width: 60%;
@@ -225,7 +228,6 @@ section{
 }
 
 .sec {
-    border: 2px dotted red;
     display: flex;
     align-items: center;
     justify-content: space-between;
