@@ -356,7 +356,7 @@ footer div{
     .games-pic{
         display: grid;
         width: 100%;
-        grid-template-columns: repeat(3,143px);
+        grid-template-columns: repeat(3,145px);
         grid-gap: 2px;
         margin: 20px;
     }
