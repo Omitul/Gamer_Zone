@@ -562,5 +562,9 @@ footer div{
         margin-left: 103px;
         margin-top: 27px;
     }
+    .footer-title{
+        display: flex;
+        gap: 8px;
+    }
 }
 
