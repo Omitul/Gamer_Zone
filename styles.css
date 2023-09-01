@@ -490,7 +490,8 @@ footer div{
     }
     .pics>p{
        text-align: center;
-       width: 100%;
+       width: 96%;
+       font-size: 11px;
     }
     nav{
         margin-right: 50px;
